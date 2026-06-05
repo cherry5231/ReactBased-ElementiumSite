@@ -1,0 +1,205 @@
+  
+   
+      
+        .nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color:white;
+            color:black;
+            
+           
+        }
+
+        .list {
+            display: flex;
+            gap: 60px;
+           
+            align-items: center;
+            justify-content: center;
+            padding-right: 200px;
+            list-style: none;
+        }
+.list {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding-right: 200px;
+}
+
+.list a {
+  text-decoration: none;   /* removes blue underline */
+  color: black;            /* link color */
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.list a:hover {
+  color: rgb(136, 79, 190); /* hover effect */
+}
+   
+                  h1 {
+            margin: 0;
+  }
+  
+  .sec{
+  background-color: white;}
+  .img1{
+  width:400px;
+  height:400px;
+  color:black;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&display=swap');
+  .first{
+  color:black;
+  text-align:centre;
+
+ font-family: 'Cinzel', serif;}
+
+.cardcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  border-radius: 16px;
+  background-color: rgb(136, 79, 190);
+  color: black;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;   /* important fix */
+  justify-content: center;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+}
+  .card2 {
+  width: 300px;
+  padding: 20px;
+  border-radius: 16px;
+  background-color: rgb(136, 79, 190);
+  color: black;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;   /* important fix */
+  justify-content: center;
+}
+
+.card2:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+}
+
+
+.a1 {
+  text-decoration: none;
+  color: inherit;
+}
+  .a2 {
+  text-decoration: none;
+  color: inherit;
+}
+ 
+  
+  .ae{
+  color:black;}
+  .footer {
+  background-color: #111;
+  color: white;
+  padding: 40px 20px;
+  margin-top: 60px;
+}
+
+.footer-content {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.footer h3 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.footer p {
+  margin: 8px 0;
+  color: #ccc;
+}
+
+.footer-links {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: rgb(136, 79, 190);
+}
+
+.copy {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #888;
+}
+  
+  .menu-container {
+  position: relative;
+  display: inline-block;
+}
+
+.hamburger {
+  font-size: 26px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.dropdown {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+  min-width: 140px;
+}
+
+.dropdown a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown a:hover {
+  background: rgb(136, 79, 190);
+  color: white;
+}
+  
+  
+  
+  
+  
